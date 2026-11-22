@@ -1,6 +1,6 @@
 cask "cycle" do
-  version "0.1.8"
-  sha256 "b3bfa1e5cb50207a936abb5e012d076256c848de079228e137ae850b1c89a933"
+  version "0.1.9"
+  sha256 "36e2ef60641add8b5a6b3eab3c6fd29373014920723484c661574b9781c7e9c9"
 
   url "https://github.com/zmscode/Cycle/releases/download/v#{version}/Cycle-#{version}.zip"
   name "Cycle"
