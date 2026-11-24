@@ -1,6 +1,6 @@
 cask "cycle" do
-  version "0.2.4"
-  sha256 "a4fcafc51a7a403e35c2ef69447af86f75b6b80cbeaae23dd16eac28398e9ed1"
+  version "0.2.5"
+  sha256 "70a99bdb5e3cf6397984c01d214f08d699fde116ffa8b5eb271ccb7d81aefc2a"
 
   url "https://github.com/zmscode/Cycle/releases/download/v#{version}/Cycle-#{version}.zip"
   name "Cycle"
@@ -16,6 +16,7 @@ cask "cycle" do
   depends_on macos: :tahoe
 
   app "Cycle.app"
+  binary "#{appdir}/Cycle.app/Contents/Resources/cycle"
 
   uninstall quit: "com.zms.Cycle"
 
